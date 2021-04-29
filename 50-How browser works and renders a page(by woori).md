@@ -43,7 +43,7 @@ Tokenizer가 위의 일을 하는 동안 다른 프로세스가 이루어지는�
 (이미지 출처: https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model#document-object-model-dom)
 
 만들어진 DOM은 그들의 properties 정보를 전부 가지고 있습니다.   
-예를 들어 <img src="......jpg"> 란 tag는 source attribute를 가지고 있습니다.   
+예를 들어 `<img src="......jpg">` 란 tag는 source attribute를 가지고 있습니다.   
 이 tag가 image node로 변환됐을 때 해당 노드는 source property를 가지게 될 것입니다.   
 
 따라서 DOM은 HTML markup의 모든 정보를 가지고 있다고 할 수 있습니다.   
@@ -102,7 +102,7 @@ CSS 바이트가 문자로 변환된 후 차례로 토큰과 노드로 변환되
 
 > "Cascading" means that because more than one stylesheet declaration could apply to a particular piece of HTML,   
 > there has to be a known way of determining which specific stylesheet rule applies to which piece of HTML.   
-> The rule used is chosen by cascading down from the more general declarations to the specific rule required.   
+> The rule used is chosen by `cascading down` from the more general declarations to the specific rule required.   
 > The most specific declaration is chosen.   
 > (reference: https://stackoverflow.com/questions/1043001/what-is-the-meaning-of-cascading-in-css)
 
@@ -176,5 +176,5 @@ head의 meta tag입니다. 아마 본 적은 있지만 이게 무슨 의미인�
 
 ##### 본 내용은 udacity의 Website Performance Optimization 강의 내용을 바탕으로 작성되었습니다.   
 
-reference: https://classroom.udacity.com/courses/ud884,
+reference: https://classroom.udacity.com/courses/ud884,   
            https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction
