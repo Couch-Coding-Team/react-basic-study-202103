@@ -332,7 +332,7 @@ blue.addEventListener("click", (e) => {
 });
 
 black.addEventListener("click", (e) => {
-  console.log("black");
+  console.log("black1");
 });
 ```
 
